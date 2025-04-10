@@ -1,0 +1,18 @@
+
+replicaCount: 1
+
+image:
+  repository: busybox
+  tag: "1.36.1"
+  pullPolicy: IfNotPresent
+
+command: ["sleep"]
+args: ["3600"]
+
+resources: {}
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
